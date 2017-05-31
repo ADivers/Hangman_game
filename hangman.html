@@ -1,1 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Cosmic Hangman</title>
+
+  <!-- Bootstrap CDN -->
+  	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  	 <!-- bootstrap overrides -->
+  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+  <!-- //bring in fonts  -->
+<link href="https://fonts.googleapis.com/css?family=Audiowide|VT323" rel="stylesheet">
+
+</head>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="page-header">
+          <h1> Cosmic Hangman </h1>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <img src="assets/images/spaceMan.jpg" alt="Placeholder" class="img-thumbnail">
+          </div>
+	          <div class="col-md-6">
+	            <p>
+	            	The name of the game is Cosmic Hangman, the aim is to guess all the letters in the word before you run out of guesses. 
+	            </p>
+	            <p>
+	            	Guesses are like air, you lose when you run out. So be smart and guess the right letters!
+	            </p>
+	          </div>
+	          <div class="col-md-6">
+	          	<div class="col-md-5">
+		          	<span class="glyphicon glyphicon-screenshot" aria-hidden="true">
+		          	</span>
+		          	<h4 id=letterlengthid>
+		          		Hint: The word contains X letters.
+		          	</h4>
+	          	</div>
+	          	<div class="col-md-5">
+		          	<span class="glyphicon glyphicon-hourglass" aria-hidden="true">
+		          	</span>
+	          		<h4 id=guessesleftid>
+	            		You have X guesses left.
+	            	</h4>
+	          	</div>
+	          	<div class="col-md-10">
+	          		<span class="glyphicon glyphicon-flash" aria-hidden="true">
+	          		<h4 id=badpicksid>
+	            		Incorrect Guesses:
+	            	</h4>
+	          	</div>
+	          	<div class="col-md-10">
+	          		<span class="glyphicon glyphicon-fire" aria-hidden="true">
+	          		<h4 id="hold">
+	            		Correct Guesses:
+	            	</h4>
+	          	</div>
+	          </div>
+        </div>
+      </div>
+       </div>
+  </div>
+
+
+<script type="text/javascript" src="assets/javascript/game.js"> 
+</script>
+	
+</body>
+</html>
+
+
 
